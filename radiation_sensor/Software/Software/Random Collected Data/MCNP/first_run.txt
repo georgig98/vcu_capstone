@@ -1,0 +1,27 @@
+Test Input Deck for MCNP Code
+c Pu sphere with NaI detector 
+c ============================================================================
+c Cell Cards
+1   1 -19.86    -1      imp:n=1             $Pu sphere
+2   2 -0.001293 3 -2    imp:n=1             $Air
+3   3 -19.10    -3 1    imp:n=1             $Depleted Uranium
+999 0           2       imp:n=0             $void region
+
+c ============================================================================
+c Surface Cards
+1   SO  3.820                               $Sphere of Pu centered at the origin
+2   SO  20                                 $Sphere of air
+3   SO  13.820                             $Shell of depleted uranium 
+
+c ============================================================================
+c Material Cards
+M1 94239.84n    -0.95   94240.84n   -0.05   $Weapons Grade Plutonium
+M2 08016.84n    0.210   07014.84n   0.790   $Air
+M3 92238.84n    0.993   92235.84n   0.007   $Deplete Uranium
+c ============================================================================
+c Source Definition Cards Using Kcode
+kcode 5000 1.0 10 150
+ksrc 0.0 0.0 0.0
+
+
+

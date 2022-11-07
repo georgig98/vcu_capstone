@@ -1,0 +1,668 @@
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:09:03
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 1   1  -3.67    -1 2 -3     imp:p=1             $NaI detector        
+ fatal error.  no m card for material no.      1
+ 2   3  -11.34   -4 1 2 -3   imp:p=1             $lead shield         
+ fatal error.  no m card for material no.      3
+ 3   2  -0.00123  4 -2 3 -5  imp:p=1             $air region          
+ fatal error.  no m card for material no.      2
+ 999 4           5           imp:p=0             $void region         
+ fatal error.  no m card for material no.      4
+ fatal error.  this cell has no surfaces.
+ 1   C/X          0  8.08   2.54                      $cylinder with r
+ fatal error.        is not a legal data symbol.
+ 2   PX      -2.54                                    $Rear of cylinde
+ fatal error.        is not a legal data symbol.
+ 3   PX       2.54                                    $front of cylind
+ fatal error.        is not a legal data symbol.
+ 4   C/X          0  0   5.08                         $shell of cylind
+ fatal error.        is not a legal data symbol.
+ 5   SO      200                                      $region of air  
+ fatal error.        is not a legal data symbol.
+ 
+ warning.  total nu is now the default for fixed-source problems.
+ warning.  zero neutron     importance within non-void cell  999.
+ warning.  neutron     importances have been set equal to 1.
+                                                                      
+ fatal error.  surface     -1 not found for cell     1 card.
+
+ bad trouble in imcn     in routine mbody                             
+ surface error                                                        
+
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:09:41
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 999 4           5           imp:p=0             $void region         
+ fatal error.  no m card for material no.      4
+ fatal error.  this cell has no surfaces.
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ sdef  pos=0,0,0 erg=d1                                               
+ fatal error.  illegal entry:  ,                                 
+ 
+ fatal error.  entry     3 of si   1 is not monotonically increasing.
+ sd1 1.0   1.0   0.851                                                
+ fatal error.  there is no f card corresponding to this card.
+ mode per                                                             
+ fatal error.  illegal entry:  per                               
+ 
+ warning.  zero photon      importance within non-void cell  999.
+ fatal error.  source distribution   1 is zero.
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:10:04
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 999            5           imp:p=0             $void region          
+ fatal error.  no m card for material no.      5
+ fatal error.  this cell has no surfaces.
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ sdef  pos=0,0,0 erg=d1                                               
+ fatal error.  illegal entry:  ,                                 
+ 
+ fatal error.  entry     3 of si   1 is not monotonically increasing.
+ sd1 1.0   1.0   0.851                                                
+ fatal error.  there is no f card corresponding to this card.
+ mode per                                                             
+ fatal error.  illegal entry:  per                               
+ 
+ warning.  zero photon      importance within non-void cell  999.
+ fatal error.  source distribution   1 is zero.
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:10:29
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ sdef  pos=0,0,0 erg=d1                                               
+ fatal error.  illegal entry:  ,                                 
+ 
+ fatal error.  entry     3 of si   1 is not monotonically increasing.
+ sd1 1.0   1.0   0.851                                                
+ fatal error.  there is no f card corresponding to this card.
+ mode per                                                             
+ fatal error.  illegal entry:  per                               
+ 
+ fatal error.  source distribution   1 is zero.
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:10:49
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ fatal error.  entry     3 of si   1 is not monotonically increasing.
+ sd1 1.0   1.0   0.851                                                
+ fatal error.  there is no f card corresponding to this card.
+ mode per                                                             
+ fatal error.  illegal entry:  per                               
+ 
+ fatal error.  source distribution   1 is zero.
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:11:36
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ fatal error.  entry     3 of si   1 is not monotonically increasing.
+ mode per                                                             
+ fatal error.  illegal entry:  per                               
+ 
+ fatal error.  first entry on sp  1 card is not zero.
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:12:31
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ mode per                                                             
+ fatal error.  illegal entry:  per                               
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:12:48
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ 4   c/x          0  0   5.08                         $shell of cylind
+ warning.  this surface has been replaced by a surface of type cx 
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:15:47
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:17:02
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ warning.  shading failure.  cell    3
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:17:51
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:19:15
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   11/30/18 17:20:49
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m1 11022.99p    1       53126.90    1       $sodium iodine           
+ warning.  1- or 2-character identifiers request neutron tables.
+ 
+ warning.  cross-section file xsdir      does not exist.
+ warning.  cross-section file bertin     does not exist.
+ warning.  switching to analog capture for pulse height tally.
+ imcn   is done

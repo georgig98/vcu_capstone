@@ -1,0 +1,34 @@
+Test Input Deck for MCNP Code
+c Pu sphere with NaI detector 
+c ============================================================================
+c Cell Cards
+1   1  -3.67    -1 2 -3     imp:p=1             $NaI detector
+2   3  -11.34   -4 1 2 -3   imp:p=1             $lead shield
+3   2  -0.00123  (4:-2:3) -5  imp:p=1             $air region
+999 0           5           imp:p=0             $void region
+
+c ============================================================================
+c Surface Cards
+1   C/X          0  8.08   2.54                      $cylinder with rad of 1"
+2   PX      -2.54                                    $Rear of cylinder
+3   PX       2.54                                    $front of cylinder
+4   C/X          0  8.08   5.08                         $shell of cylinder for lead
+5   SO      200                                      $region of air 
+
+c ============================================================================
+c Material Cards
+M1 11023.84p   1       53126.84p    1       $sodium iodine
+M2 08016.84p    0.210   07014.84p   0.790   $Air
+M3 82207.84p    1                           $lead shield
+c ============================================================================
+c Source Definition Cards Using Kcode
+sdef  pos=5.54 0 8.08 erg=d1
+si1 L 1.173 1.333 0.661
+sp1 D 1.0   1.0   0.851
+c ============================================================================
+c Tally cards
+f8:p 1                              $pulses in the detector
+e8 0 2999i 3                        $3000 bins at keV per bin
+ft8 GEB -0.0125 0.0704  -0.107      $broaden the resolution to match the detector
+mode p
+ctme 1

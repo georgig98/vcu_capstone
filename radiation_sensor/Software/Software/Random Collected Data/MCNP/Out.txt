@@ -1,0 +1,78 @@
+          Code Name & Version = MCNP6, 1.0
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/       
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/    
+  _/      _/      _/             _/    _/_/       _/           _/    _/   
+ _/      _/        _/_/_/       _/      _/       _/             _/_/      
+  
+  +---------------------------------------------------------------------+
+  | Copyright 2008. Los Alamos National Security, LLC.  All rights      |
+  | reserved.                                                           |
+  |   This material was produced under U.S. Government contract         |
+  | DE-AC52-06NA25396 for Los Alamos National Laboratory, which is      |
+  | operated by Los Alamos National Security, LLC, for the U.S.         |
+  | Department of Energy. The Government is granted for itself and      |
+  | others acting on its behalf a paid-up, nonexclusive, irrevocable    |
+  | worldwide license in this material to reproduce, prepare derivative |
+  | works, and perform publicly and display publicly. Beginning five    |
+  | (5) years after 2008, subject to additional five-year worldwide     |
+  | renewals, the Government is granted for itself and others acting on |
+  | its behalf a paid-up, nonexclusive, irrevocable worldwide license   |
+  | in this material to reproduce, prepare derivative works, distribute |
+  | copies to the public, perform publicly and display publicly, and to |
+  | permit others to do so. NEITHER THE UNITED STATES NOR THE UNITED    |
+  | STATES DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY, LLC, |
+  | NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY, EXPRESS OR IMPLIED, |
+  | OR ASSUMES ANY LEGAL LIABILITY OR RESPONSIBILITY FOR THE ACCURACY,  |
+  | COMPLETENESS, OR USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, |
+  | OR PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT INFRINGE |
+  | PRIVATELY OWNED RIGHTS.                                             |
+  +---------------------------------------------------------------------+
+  
+1mcnp     version 6     ld=05/08/13                     11/30/18 17:58:25 
+ *************************************************************************                 probid =  11/30/18 17:58:25 
+ i=NaI_crystal.txt o=Out.txt tasks 1                                             
+
+ 
+  warning.  Physics models disabled.
+         1-       Test Input Deck for MCNP Code                                                   
+         2-       c Pu sphere with NaI detector                                                   
+         3-       c ============================================================================  
+         4-       c Cell Cards                                                                    
+         5-       1   1  -3.67    -1 2 -3     imp:p=1             $NaI detector                   
+         6-       2   3  -11.34   -4 1 2 -3   imp:p=1             $lead shield                    
+         7-       3   2  -0.00123  (4:-2:3) -5  imp:p=1             $air region                   
+         8-       999 0           5           imp:p=0             $void region                    
+         9-                                                                                       
+        10-       c ============================================================================  
+        11-       c Surface Cards                                                                 
+        12-       1   C/X          0  8.08   2.54                      $cylinder with rad of 1"   
+        13-       2   PX      -2.54                                    $Rear of cylinder          
+        14-       3   PX       2.54                                    $front of cylinder         
+        15-       4   C/X          0  8.08   5.08                         $shell of cylinder for l
+        16-       5   SO      200                                      $region of air             
+        17-                                                                                       
+        18-       c ============================================================================  
+        19-       c Material Cards                                                                
+        20-       M1 11023.84p   1       53126.84p    1       $sodium iodine                      
+        21-       M2 08016.84p    0.210   07014.84p   0.790   $Air                                
+        22-       M3 82207.84p    1                           $lead shield                        
+        23-       c ============================================================================  
+        24-       c Source Definition Cards Using Kcode                                           
+        25-       sdef  pos=5.54 0 8.08 erg=d1                                                    
+        26-       si1 L 1.173 1.333 0.661                                                         
+        27-       sp1 D 1.0   1.0   0.851                                                         
+        28-       c ============================================================================  
+        29-       c Tally cards                                                                   
+        30-       f8:p 1                              $pulses in the detector                     
+        31-       e8 0 2999i 1                        $3000 bins at keV per bin                   
+        32-       ft8 GEB -0.0125 0.0704  -0.107      $broaden the resolution to match the detecto
+        33-       mode p                                                                          
+        34-       ctme 1                                                                          
+ 
+  warning.  Default xsdir_mcnp6.1 not found. Switching to backup, xsdir
+
+ bad trouble in subroutine ixsdir of imcn                             
+
+ data file xsdir does not exist.

@@ -1,0 +1,1 @@
+gfortran -c vars.f95

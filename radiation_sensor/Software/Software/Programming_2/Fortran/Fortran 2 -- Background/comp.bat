@@ -1,0 +1,1 @@
+gfortran -static -o background.exe vars.o main.f95 inread.f95 backdata.f95 outwrite.f95

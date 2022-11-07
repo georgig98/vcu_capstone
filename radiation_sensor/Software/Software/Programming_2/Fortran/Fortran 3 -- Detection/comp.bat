@@ -1,0 +1,1 @@
+gfortran -static -o detection.exe vars.o main.f95 inread.f95 outwrite.f95 arrays.f95 debugger.f95
